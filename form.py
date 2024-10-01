@@ -43,7 +43,7 @@ def form_code():
             st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
     # Load custom CSS
-    local_css("project/style/style.css")
+    local_css("style/style.css")
 
 
 
